@@ -1,2 +1,3 @@
 # leet_code_solutions
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub-3.0](https://github.com/raphaelheinz/LeetHub-3.0)
+- This repository contains my personal solutions for Data Structures and Algorithms problems.
+- Languages used: C++
