@@ -8,12 +8,14 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0704-binary-search](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0704-binary-search/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0704-binary-search](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0704-binary-search/) | Easy |
 ## Matrix
