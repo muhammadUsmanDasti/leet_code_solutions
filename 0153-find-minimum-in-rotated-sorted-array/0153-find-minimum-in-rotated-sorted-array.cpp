@@ -21,6 +21,6 @@ public:
                 low = mid + 1;
             }
         }
-        return -2100000;
+        return -5001;
     }
 };
