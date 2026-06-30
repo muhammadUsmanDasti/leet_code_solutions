@@ -1,16 +1,10 @@
-#include <cmath>
 class Solution {
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
-        int maxPile = piles[0];
-        for(int i = 0; i < piles.size(); i++) {
-            if(piles[i] > maxPile) {
-                maxPile = piles[i];
-            }
-        }
+        int maxPile = *max_element(piles.begin(), piles.end());
         int minK = 1;
         int maxK = maxPile;
-        int result = 0;
+        int result = maxPile;
         while(minK <= maxK) {
             int k = minK + (maxK - minK) / 2;
             long H = 0;
