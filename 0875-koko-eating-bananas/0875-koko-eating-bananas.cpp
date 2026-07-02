@@ -7,7 +7,7 @@ public:
         int result = maxPile;
         while(minK <= maxK) {
             int k = minK + (maxK - minK) / 2;
-            long H = 0;
+            long long H = 0;
             for (int j = 0; j < piles.size(); j++) {
                 H += (piles[j] + k - 1) / k;
             }
