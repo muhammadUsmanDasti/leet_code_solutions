@@ -34,4 +34,12 @@
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
 <!---LeetCode Topics End-->
