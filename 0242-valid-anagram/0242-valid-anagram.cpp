@@ -4,13 +4,28 @@ public:
         if(s.size() != t.size()) {
             return false;
         }
-        sort(s.begin() , s.end());
-        sort(t.begin() , t.end());
+        vector<int> hashTable(26 , 0);
         for(int i = 0; i < s.size(); i++) {
-            if(s[i] != t[i]){
+            int index = hashFunction(s[i]);
+            hashTable[index]++;
+        }
+        for(int j = 0; j < t.size(); j++) {
+            int index = hashFunction(t[j]);
+            if(hashTable[index] == 0){
+                return false;
+            }
+            hashTable[index]--;
+        }
+        for(int k = 0; k < hashTable.size(); k++) {
+            if(hashTable[k] != 0) {
                 return false;
             }
         }
         return true;
+    }
+
+private:
+    int hashFunction(int key) {
+        return key - 'a';
     }
 };
