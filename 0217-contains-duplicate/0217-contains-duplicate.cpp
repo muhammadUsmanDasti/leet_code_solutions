@@ -1,6 +1,9 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
+        if(nums.size() == 0) {
+            return false;
+        }
         int MIN = INT_MIN;
         int hashSize = nums.size() * 2;
         vector<int> hashTable(hashSize , MIN);
