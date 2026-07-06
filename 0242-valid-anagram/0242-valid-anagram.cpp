@@ -16,11 +16,7 @@ public:
             }
             hashTable[index]--;
         }
-        for(int k = 0; k < hashTable.size(); k++) {
-            if(hashTable[k] != 0) {
-                return false;
-            }
-        }
+        
         return true;
     }
 
