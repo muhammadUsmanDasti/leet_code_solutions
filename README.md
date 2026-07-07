@@ -7,6 +7,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0001-two-sum/) | Easy |
 | [0004-median-of-two-sorted-arrays](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0033-search-in-rotated-sorted-array](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
@@ -47,6 +48,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0001-two-sum/) | Easy |
 | [0217-contains-duplicate](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0242-valid-anagram/) | Easy |
 ## Sorting
