@@ -16,6 +16,7 @@
 | [0217-contains-duplicate](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0704-binary-search](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0704-binary-search/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Binary Search
@@ -38,6 +39,7 @@
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -55,14 +57,32 @@
 | [0049-group-anagrams](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0242-valid-anagram/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0242-valid-anagram/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0238-product-of-array-except-self/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
