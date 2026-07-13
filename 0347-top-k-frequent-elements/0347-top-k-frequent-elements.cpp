@@ -16,10 +16,10 @@ public:
                 continue;
             }
             for(int num : bucketList[j]) {
-                if(result.size() != k){
-                    result.push_back(num);
+                if(result.size() == k){
+                    break; 
                 }
-                
+                result.push_back(num);
             }
 
         }
