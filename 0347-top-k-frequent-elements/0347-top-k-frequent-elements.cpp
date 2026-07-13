@@ -1,34 +1,26 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        sort(nums.begin(), nums.end());
-        vector<pair<int,pair<int, bool>>> frequencyCountTable;
-        int count = 0;
-        int number = nums[0];
+        unordered_map<int, pair<int, bool>> hashTable;
         for(int i = 0; i < nums.size(); i++) {
-            if(nums[i] == number) {
-                count++;
-            }
-            else {
-                frequencyCountTable.push_back({number, {count, false}});
-                count = 1;
-                number = nums[i];
-            }
+            int key = nums[i];
+            hashTable[key].first++;
+            hashTable[key].second = false;
         }
-        frequencyCountTable.push_back({number, {count, false}});
+
         vector<int> result;
-        int max = frequencyCountTable[0].second.first;
-        int loopCount = 0;
+        int max = hashTable[nums[0]].first;
+        int maxKey;
         int z = 0;
         while(z < k) {
-            for(int j = 0; j < frequencyCountTable.size(); j++) {
-                if(max <= frequencyCountTable[j].second.first && frequencyCountTable[j].second.second == false) {
-                    max = frequencyCountTable[j].second.first;
-                    loopCount = j;
+            for(const auto& [key,state] : hashTable) {
+                if(max <= state.first && state.second == false) {
+                    max = state.first;
+                    maxKey = key;
                 }
             }
-            result.push_back(frequencyCountTable[loopCount].first);
-            frequencyCountTable[loopCount].second.second = true;
+            result.push_back(maxKey);
+            hashTable[maxKey].second = true;
             max = INT_MIN;
             z++;
         }
