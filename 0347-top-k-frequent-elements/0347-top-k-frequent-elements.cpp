@@ -1,29 +1,29 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map<int, pair<int, bool>> hashTable;
+        unordered_map<int, int> hashTable;
         for(int i = 0; i < nums.size(); i++) {
             int key = nums[i];
-            hashTable[key].first++;
-            hashTable[key].second = false;
+            hashTable[key]++;
         }
-
+        vector<vector<int>> bucketList(nums.size() + 1);
+        for(const auto& [key,count] : hashTable) {
+            bucketList[count].push_back(key);
+        }
         vector<int> result;
-        int max = hashTable[nums[0]].first;
-        int maxKey;
-        int z = 0;
-        while(z < k) {
-            for(const auto& [key,state] : hashTable) {
-                if(max <= state.first && state.second == false) {
-                    max = state.first;
-                    maxKey = key;
-                }
+        for(int j = bucketList.size()-1; result.size() != k; j--) {
+            if(bucketList[j].empty()){
+                continue;
             }
-            result.push_back(maxKey);
-            hashTable[maxKey].second = true;
-            max = INT_MIN;
-            z++;
+            for(int num : bucketList[j]) {
+                if(result.size() != k){
+                    result.push_back(num);
+                }
+                
+            }
+
         }
+        
         return result;
     }
 };
