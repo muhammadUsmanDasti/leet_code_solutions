@@ -5,7 +5,7 @@ public:
         int j = height.size() - 1;
         int width = height.size() - 1;
         int max = 0;
-        while(i <= j) {
+        while(i < j) {
             int netMax = 0;
             if(height[i] >= height[j]) {
                 netMax = height[j] * width;
