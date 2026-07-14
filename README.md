@@ -9,6 +9,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0001-two-sum/) | Easy |
 | [0004-median-of-two-sorted-arrays](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0011-container-with-most-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0049-group-anagrams](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
@@ -43,6 +44,7 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -85,4 +87,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
