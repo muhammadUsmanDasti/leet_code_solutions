@@ -46,12 +46,14 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
+| [0344-reverse-string](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0344-reverse-string/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0242-valid-anagram/) | Easy |
+| [0344-reverse-string](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0344-reverse-string/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
