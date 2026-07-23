@@ -1,35 +1,28 @@
 class Solution {
 public:
-    bool isValid(int r, int c, char ch, vector<vector<char>>& board) {
-        for(int i = 0; i < 9; i++) {
-            if(board[r][i] == ch || board[i][c] == ch) {
-                return false;
-            }
-        }
-        int newR = (r / 3) * 3;
-        int newC = (c / 3) * 3;
-        for (int i = newR; i < newR+3; i++) {
-            for (int j = newC; j < newC+3; j++) {
-                if(board[i][j] == ch) {
+    bool isValidSudoku(vector<vector<char>>& board) {
+        int row[9] = {0};
+        int col[9] = {0};
+        int square[9] = {0};
+
+        for (int r = 0; r < 9; r++) {
+            for (int c = 0; c < 9; c++) {
+                if(board[r][c] == '.') {
+                    continue;
+                }
+                int val = board[r][c] - '1';
+                int mask = 1 << val;
+
+                int squareIndex = (r / 3) * 3 + (c / 3);
+
+                if( (row[r] & mask) || (col[c] & mask) || (square[squareIndex] & mask)) {
                     return false;
                 }
-            }
-        }
-        return true;
-    }
 
-    bool isValidSudoku(vector<vector<char>>& board) {
-        for(int r = 0; r < 9; r++) {
-            for(int c = 0; c < 9; c++) {
-                char ch = board[r][c];
-                if(ch != '.') {
-                    board[r][c] = '.';
-                    bool flag = isValid(r, c, ch, board);
-                    board[r][c] = ch;
-                    if(!flag) {
-                        return false;
-                    }
-                }
+                row[r] = row[r] | mask;
+                col[c] = col[c] | mask;
+                square[squareIndex] = square[squareIndex] | mask;
+
             }
         }
         return true;
