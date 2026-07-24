@@ -32,6 +32,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0704-binary-search](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0704-binary-search/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0875-koko-eating-bananas/) | Medium |
+| [0981-time-based-key-value-store](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0981-time-based-key-value-store/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -57,6 +58,7 @@
 | [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0344-reverse-string/) | Easy |
+| [0981-time-based-key-value-store](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0981-time-based-key-value-store/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,6 +69,7 @@
 | [0217-contains-duplicate](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0981-time-based-key-value-store](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0981-time-based-key-value-store/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -102,4 +105,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0981-time-based-key-value-store](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0981-time-based-key-value-store/) | Medium |
 <!---LeetCode Topics End-->
