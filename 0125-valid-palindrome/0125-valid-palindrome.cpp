@@ -4,13 +4,13 @@ public:
         int i = 0;
         int j = s.size() - 1;
         while(i < j) {
-            while(i < j && !(isalnum(s[i]))) {
+            while(i < j && !(isalnum((unsigned char)s[i]))) {
                 i++;
             }
-            while(i < j && !(isalnum(s[j]))) {
+            while(i < j && !(isalnum((unsigned char)s[j]))) {
                 j--;
             }
-            if(tolower(s[i]) != tolower(s[j])){
+            if(tolower((unsigned char)s[i]) != tolower((unsigned char)s[j])){
                 return false;
             }
             i++;
