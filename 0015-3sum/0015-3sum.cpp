@@ -16,16 +16,16 @@ public:
                 if(sum == 0) {
                     vector<int> triplet = {nums[i], nums[j], nums[k]};
                     result.push_back(triplet);
-                    while(j < k && nums[j] == nums[j + 1]) {
+                    j++;
+                    k--;
+                    while(j < k && nums[j] == nums[j - 1]) {
                         j++;
                         continue;
                     }
-                    while(j < k && nums[k] == nums[k - 1]) {
+                    while(j < k && nums[k] == nums[k + 1]) {
                         k--;
                         continue;
                     }
-                    j++;
-                    k--;
                 }
                 else if(sum > 0) {
                     k--;
