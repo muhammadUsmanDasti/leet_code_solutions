@@ -20,11 +20,9 @@ public:
                     k--;
                     while(j < k && nums[j] == nums[j - 1]) {
                         j++;
-                        continue;
                     }
                     while(j < k && nums[k] == nums[k + 1]) {
                         k--;
-                        continue;
                     }
                 }
                 else if(sum > 0) {
