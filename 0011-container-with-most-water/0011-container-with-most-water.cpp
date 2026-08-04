@@ -4,24 +4,22 @@ public:
         int i = 0;
         int j = height.size() - 1;
         int width = height.size() - 1;
-        int maxNet = 0;
+        int max = 0;
         while(i < j) {
+            int currentNet = 0;
             if(height[i] <= height[j]) {
-                int currentNet = height[i] * width;
-                if(currentNet > maxNet) {
-                    maxNet = currentNet;
-                }
+                currentNet = height[i] * width;
                 i++;
             }
             else {
-                int currentNet = height[j] * width;
-                if(currentNet > maxNet) {
-                    maxNet = currentNet;
-                }
+                currentNet = height[j] * width;
                 j--;
+            }
+            if(currentNet > max) {
+                max = currentNet;
             }
             width--;
         }
-        return maxNet;
+        return max;
     }
 };
