@@ -13,6 +13,7 @@
 | [0015-3sum](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0015-3sum/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0036-valid-sudoku/) | Medium |
+| [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -53,6 +54,7 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0015-3sum/) | Medium |
+| [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0125-valid-palindrome](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0125-valid-palindrome/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0344-reverse-string](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0344-reverse-string/) | Easy |
@@ -115,4 +117,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0981-time-based-key-value-store](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0981-time-based-key-value-store/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
 <!---LeetCode Topics End-->
