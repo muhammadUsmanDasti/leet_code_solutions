@@ -4,23 +4,24 @@ public:
         int i = 0;
         int j = height.size() - 1;
         int width = height.size() - 1;
-        int max = 0;
+        int maxNet = 0;
         while(i < j) {
-            int netMax = 0;
-            if(height[i] >= height[j]) {
-                netMax = height[j] * width;
-                j--;
-            }
-            else {
-                netMax = height[i] * width;
+            if(height[i] <= height[j]) {
+                int currentNet = height[i] * width;
+                if(currentNet > maxNet) {
+                    maxNet = currentNet;
+                }
                 i++;
             }
-
-            if(netMax >= max) {
-                max = netMax;
+            else {
+                int currentNet = height[j] * width;
+                if(currentNet > maxNet) {
+                    maxNet = currentNet;
+                }
+                j--;
             }
             width--;
         }
-        return max;
+        return maxNet;
     }
 };
