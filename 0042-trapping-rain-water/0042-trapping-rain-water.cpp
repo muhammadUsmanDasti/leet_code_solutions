@@ -5,30 +5,19 @@ public:
         int R = height.size() - 1;
         int leftMax = height[L];
         int rightMax = height[R];
-        int trappedWater = 0;
+        int res = 0;
         while(L < R) {
+            leftMax = max(leftMax, height[L]);
+            rightMax = max(rightMax, height[R]);
             if(leftMax <= rightMax) {
-                int waterUnits = leftMax - height[L];
-                if(waterUnits >= 0) {
-                    trappedWater += waterUnits;
-                }
+                res += leftMax - height[L];
                 L++;
-                if(height[L] > leftMax) {
-                    leftMax = height[L];
-                }
             }
             else {
-                int waterUnits = rightMax - height[R];
-                if(waterUnits >= 0) {
-                    trappedWater += waterUnits;
-                }
-                
+                res += rightMax - height[R];
                 R--;
-                if(height[R] > rightMax) {
-                    rightMax = height[R];
-                }
             }
         }
-        return trappedWater;
+        return res;
     }
 };
