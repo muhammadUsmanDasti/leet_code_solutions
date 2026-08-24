@@ -1,8 +1,7 @@
 class MinStack {
 private:
-    int minIndex = -1;
     vector<int> minStack;
-    vector<int> minIndexStack;
+    vector<int> minValueStack;
 public:
     MinStack() {
 
@@ -10,52 +9,38 @@ public:
     
     void push(int value) {
         minStack.push_back(value);
-        if (minIndex == -1) {
-            minIndex = 0;
-            minIndexStack.push_back(minIndex);
-        } else {
-            if(value < minStack[minIndex]) {
-                minIndex = minStack.size() - 1;
-                minIndexStack.push_back(minIndex);
-            }
+        if (minValueStack.empty() || value <= minValueStack[minValueStack.size() - 1]) {
+            minValueStack.push_back(value);
         }
     }
     
     void pop() {
         if (!minStack.empty()) {
-            if (minIndex != (minStack.size() - 1)) {
+            if (minStack[minStack.size() - 1] == minValueStack[minValueStack.size() - 1]) {
                 minStack.pop_back();
+                if (!minValueStack.empty()) {
+                    minValueStack.pop_back();
+                }
             } else {
                 minStack.pop_back();
-                if (!minIndexStack.empty()) {
-                    minIndexStack.pop_back();
-                    if (minIndexStack.empty()){
-                        minIndex = -1;
-                    }
-                    else {
-                        minIndex = minIndexStack[minIndexStack.size() - 1];
-                    }
-                    
-                }
-                
             }
             
         }
     }
     
     int top() {
-        if (!minStack.empty()){
-            return minStack[minStack.size() - 1];
+        if (minStack.empty()){
+            throw out_of_range("cannot call top() on an empty stack");
         } else {
-            return NULL;
+            return minStack[minStack.size() - 1];
         }
     }
     
     int getMin() {
-        if (minIndex != -1) {
-            return minStack[minIndex];
+        if (minValueStack.empty()) {
+            throw out_of_range("stack is empty unable to call getMin()");
         } else {
-            return NULL;
+            return minValueStack[minValueStack.size() - 1];
         }
         
     }
