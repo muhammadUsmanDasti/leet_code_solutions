@@ -17,14 +17,9 @@ public:
     void pop() {
         if (!minStack.empty()) {
             if (minStack[minStack.size() - 1] == minValueStack[minValueStack.size() - 1]) {
-                minStack.pop_back();
-                if (!minValueStack.empty()) {
-                    minValueStack.pop_back();
-                }
-            } else {
-                minStack.pop_back();
-            }
-            
+                minValueStack.pop_back();
+            } 
+            minStack.pop_back();
         }
     }
     
