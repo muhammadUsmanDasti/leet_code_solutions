@@ -117,6 +117,7 @@
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0155-min-stack](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0155-min-stack/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0981-time-based-key-value-store/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -127,6 +128,7 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
+| [0155-min-stack](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0155-min-stack/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
