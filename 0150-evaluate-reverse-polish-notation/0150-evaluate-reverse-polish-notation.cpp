@@ -6,7 +6,7 @@ public:
             if (tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/") {
                 stack.push_back(tokens[i]);
             }
-            else if (tokens[i] == "+" || tokens[i] == "-" || tokens[i] == "*" || tokens[i] == "/" || tokens[i] == "/" && stack.size() >= 2) {
+            else {
                 int result = 0;
                 int second = stoi(stack.back());
                 stack.pop_back();
