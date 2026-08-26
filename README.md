@@ -25,6 +25,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0704-binary-search](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0704-binary-search/) | Easy |
+| [0739-daily-temperatures](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0739-daily-temperatures/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -131,10 +132,12 @@
 | [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0155-min-stack/) | Medium |
+| [0739-daily-temperatures](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0739-daily-temperatures/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0042-trapping-rain-water/) | Hard |
+| [0739-daily-temperatures](https://github.com/muhammadUsmanDasti/leet_code_solutions/tree/main/0739-daily-temperatures/) | Medium |
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |
